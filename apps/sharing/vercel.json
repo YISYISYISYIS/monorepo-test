@@ -1,0 +1,11 @@
+{
+  "name": "sharing",
+  "builds": [
+    {
+      "src": "apps/sharing/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "buildCommand": "pnpm build",
+  "outputDirectory": "apps/sharing/.next"
+}

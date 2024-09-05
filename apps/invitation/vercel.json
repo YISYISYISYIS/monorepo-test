@@ -1,0 +1,11 @@
+{
+  "name": "invitation",
+  "builds": [
+    {
+      "src": "apps/invitation/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "buildCommand": "pnpm build",
+  "outputDirectory": "apps/invitation/.next"
+}

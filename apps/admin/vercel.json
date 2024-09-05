@@ -1,0 +1,11 @@
+{
+  "name": "admin",
+  "builds": [
+    {
+      "src": "apps/admin/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "buildCommand": "pnpm build",
+  "outputDirectory": "apps/admin/.next"
+}

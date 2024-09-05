@@ -16,9 +16,9 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>app/page.tsx</code>
+            <code>sharing page</code>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>쉐어링 페이지</li>
         </ol>
 
         <div className={styles.ctas}>
@@ -46,7 +46,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="docs" className={styles.secondary}>
+        <Button appName="web" className={styles.secondary}>
           Open alert
         </Button>
       </main>
